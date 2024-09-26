@@ -7,6 +7,7 @@
   "type": "module",
   "exports": {
     ".": "./index.ts",
+    "./libs/*": "./libs/*"
     "./overrides/MarkdownContent.astro": "./overrides/MarkdownContent.astro",
     "./overrides/Sidebar.astro": "./overrides/Sidebar.astro",
     "./overrides/ThemeSelect.astro": "./overrides/ThemeSelect.astro",
